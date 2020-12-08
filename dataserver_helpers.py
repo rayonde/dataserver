@@ -81,5 +81,5 @@ def update_attrs(group, dict):
         group.set_attrs(**dict)
     else:
         for k in dict:
-            print k, dict[k]
+            print(k, dict[k])
             group.attrs[k] = dict[k]
