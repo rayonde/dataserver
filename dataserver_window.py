@@ -1,6 +1,6 @@
 from dataserver_helpers import run_dataserver, dataserver_client, DATA_DIRECTORY
 import time
-from PyQt4 import Qt
+from PyQt5 import Qt
 import sys
 
 app = Qt.QApplication([])

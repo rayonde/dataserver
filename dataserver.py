@@ -411,7 +411,7 @@ class DataServer(object):
         return "hello"
 
 def print_stats():
-    print 'Sharing %d data objects (objectsharer reports %d)' % (len(dataserv._datagroups), len(objsh.helper.objects))
+    print('Sharing %d data objects (objectsharer reports %d)' % (len(dataserv._datagroups), len(objsh.helper.objects)))
     return True
 
 logging.info('Starting data server...')
